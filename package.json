@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/web-injaz/wi-framework-example#readme",
   "dependencies": {
-    "wi-framework": "^2.1.7",
-    "wi-theme-famous": "^1.0.4"
+    "wi-framework": "^2.1.8",
+    "wi-theme-famous": "^1.0.6"
   }
 }

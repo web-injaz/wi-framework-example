@@ -23,5 +23,3 @@
     </div>
   </li>
 </ul>
-
-<?php include('shapes/cena.php') ?>

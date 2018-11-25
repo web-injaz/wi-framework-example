@@ -11,7 +11,7 @@
       <div class="carousel-caption">
             <h5>Carousel Caption Title 1</h5>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur mollitia veritatis eveniet nihil hic possimus, perferendis est nisi ex tempora? Doloremque pariatur illo nesciunt quae neque voluptate praesentium aperiam vel?</p>
-            <a href="" class="btn btn-main" role="button">See More</a>
+            <a href="" class="btn btn-primary" role="button">See More</a>
         </div>
     </div>
     <div class="carousel-item">
@@ -19,7 +19,7 @@
       <div class="carousel-caption">
             <h5>Carousel Caption Title 2</h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam nostrum, distinctio fuga, facilis similique natus illum fugiat dolore assumenda harum. Eligendi dolorum consequatur eveniet sed blanditiis sit aspernatur fugiat.</p>
-            <a href="" class="btn btn-main" role="button">See More</a>
+            <a href="" class="btn btn-primary" role="button">See More</a>
         </div>
     </div>
   </div>

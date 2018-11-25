@@ -1,6 +1,7 @@
 <h1>Webinjaz framework:</h1>
 
 <div class="container">
+    <h1 class="text-center">Components</h1>
     <div class="row">
         <div class="content w-100">
             <?php include('components/card/card.php') ?>
@@ -55,6 +56,66 @@
         </div>
         <div class="content w-100">
             <?php include('components/popover/popover.php') ?>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="text-center">Shapes</h1>
+    <div class="row">
+        <div class="content w-100">
+            <?php include('shapes/card/card.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/carousel/carousel.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/navbar/navbar.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/header-section/header-section.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/breadcrumb/breadcrumb.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/pagination/pagination.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/form/form.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/media/media.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/navs/navs.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/dropdown/dropdown.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/buttons/buttons.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/collapse/collapse.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/alert/alert.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/jumbotron/jumbotron.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/progress/progress.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/tables/tables.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/tooltip/tooltip.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('shapes/popover/popover.php') ?>
         </div>
     </div>
 </div>

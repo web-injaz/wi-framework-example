@@ -1,2 +1,3 @@
-<h6>.wi-shape-header-section-reko</h6>
-<?php include('shapes/reko.php') ?>
+<div class="header-section wi-shape-header-section-reko">
+    <h1 class="page-header">Header Section</h1>
+</div>
