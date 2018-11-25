@@ -1,0 +1,23 @@
+{
+  "name": "wi-framework-example",
+  "version": "1.0.0",
+  "description": "Test for wi-framework package",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-injaz/wi-framework-example.git"
+  },
+  "author": "webinjaz.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-injaz/wi-framework-example/issues"
+  },
+  "homepage": "https://github.com/web-injaz/wi-framework-example#readme",
+  "dependencies": {
+    "wi-framework": "^2.1.7",
+    "wi-theme-famous": "^1.0.4"
+  }
+}
