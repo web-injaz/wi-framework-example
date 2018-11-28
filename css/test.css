@@ -1,53 +1,40 @@
 :root {
-  ---text: white;
-  ---headers: #ffb3b3;
-  ---links: #ffb3b3;
-  ---bw-01: 255;
-  ---light-inverse: #ff8080;
-  ---text-light-inverse: black;
-  ---dark-inverse: #ff8080;
-  ---text-dark-inverse: black;
-  ---darken-5: #e60000;
-  ---darken-10: #cc0000;
-  ---darken-15: #b30000;
-  ---darken-20: #990000;
-  ---darken-25: maroon;
-  ---darken-30: #660000;
-  ---darken-35: #4d0000;
-  ---lighten-5: #ff1a1a;
-  ---lighten-10: #ff3333;
-  ---lighten-15: #ff4d4d;
-  ---lighten-20: #ff6666;
-  ---lighten-25: #ff8080;
-  ---lighten-30: #ff9999;
-  ---lighten-35: #ffb3b3;
-  ---contrast-10: #ff3333;
-  ---contrast-20: #ff6666;
-  ---contrast-30: #ff9999;
-  ---contrast-40: #ffcccc;
-  ---contrast-50: white;
-  ---contrast-60: white;
-  ---contrast-70: white;
-  ---contrast-80: white;
-  ---contrast-90: white;
-  ---trans-10: rgba(255, 0, 0, 0.1);
-  ---trans-20: rgba(255, 0, 0, 0.2);
-  ---trans-30: rgba(255, 0, 0, 0.3);
-  ---trans-40: rgba(255, 0, 0, 0.4);
-  ---trans-50: rgba(255, 0, 0, 0.5);
-  ---trans-60: rgba(255, 0, 0, 0.6);
-  ---trans-70: rgba(255, 0, 0, 0.7);
-  ---trans-80: rgba(255, 0, 0, 0.8);
-  ---trans-90: rgba(255, 0, 0, 0.9);
-  ---gray-10: #ff1a1a;
-  ---gray-20: #ff3333;
-  ---gray-30: #ff4d4d;
-  ---gray-40: #ff6666;
-  ---gray-50: #ff8080;
-  ---gray-60: #ff9999;
-  ---gray-70: #ffb3b3;
-  ---gray-80: #ffcccc;
-  ---gray-90: #ffe6e6; }
+  --background: #922e2e;
+  --text: white;
+  --headers: #de9595;
+  --links: #de9595;
+  --bw-01: 255;
+  --light-inverse: #c99797;
+  --text-light-inverse: black;
+  --dark-inverse: #c99797;
+  --text-dark-inverse: black;
+  --contrast-10: #b93a3a;
+  --contrast-20: #cb5b5b;
+  --contrast-30: #d78282;
+  --contrast-40: #e4a8a8;
+  --contrast-50: #f0cfcf;
+  --contrast-60: #fcf6f6;
+  --contrast-70: white;
+  --contrast-80: white;
+  --contrast-90: white;
+  --trans-10: rgba(146, 46, 46, 0.1);
+  --trans-20: rgba(146, 46, 46, 0.2);
+  --trans-30: rgba(146, 46, 46, 0.3);
+  --trans-40: rgba(146, 46, 46, 0.4);
+  --trans-50: rgba(146, 46, 46, 0.5);
+  --trans-60: rgba(146, 46, 46, 0.6);
+  --trans-70: rgba(146, 46, 46, 0.7);
+  --trans-80: rgba(146, 46, 46, 0.8);
+  --trans-90: rgba(146, 46, 46, 0.9);
+  --gray-10: #9d4343;
+  --gray-20: #a85858;
+  --gray-30: #b36d6d;
+  --gray-40: #be8282;
+  --gray-50: #c99797;
+  --gray-60: #d3abab;
+  --gray-70: #dec0c0;
+  --gray-80: #e9d5d5;
+  --gray-90: #f4eaea; }
 
 [class*=wi-bg-] {
   background-color: var(--background) !important;
@@ -127,12 +114,6 @@
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.content {
-  padding: 50px 0; }
-
-.content-mini {
-  padding: 25px 0; }
 
 .container {
   width: 100%;
@@ -6856,6 +6837,7 @@ textarea.form-control {
   --contrast-40: #adadc9;
   --contrast-50: #ccccdd;
   --contrast-60: #ebebf1;
+  --contrast-70: white;
   --contrast-80: white;
   --contrast-90: white;
   --trans-10: rgba(68, 68, 102, 0.1);
@@ -6893,6 +6875,7 @@ textarea.form-control {
   --contrast-40: #96a0aa;
   --contrast-50: #b2bac1;
   --contrast-60: #ced3d8;
+  --contrast-70: #ebedee;
   --contrast-80: white;
   --contrast-90: white;
   --trans-10: rgba(52, 58, 64, 0.1);
@@ -6930,6 +6913,7 @@ textarea.form-control {
   --contrast-40: #999999;
   --contrast-50: gray;
   --contrast-60: #666666;
+  --contrast-70: #4d4d4d;
   --contrast-80: #333333;
   --contrast-90: #1a1a1a;
   --trans-10: rgba(255, 255, 255, 0.1);
@@ -6967,6 +6951,7 @@ textarea.form-control {
   --contrast-40: #8f8f8f;
   --contrast-50: #767676;
   --contrast-60: #5c5c5c;
+  --contrast-70: #434343;
   --contrast-80: #292929;
   --contrast-90: #101010;
   --trans-10: rgba(245, 245, 245, 0.1);
@@ -6987,6 +6972,82 @@ textarea.form-control {
   --gray-70: #4a4a4a;
   --gray-80: #313131;
   --gray-90: #191919; }
+
+.bg-nature {
+  --background: #28a745;
+  --text: white;
+  --headers: #9be7ac;
+  --links: #9be7ac;
+  --bw-01: 255;
+  --light-inverse: #94d3a2;
+  --text-light-inverse: black;
+  --dark-inverse: #94d3a2;
+  --text-dark-inverse: black;
+  --contrast-10: #34ce57;
+  --contrast-20: #5dd879;
+  --contrast-30: #86e29b;
+  --contrast-40: #afecbd;
+  --contrast-50: #d8f6df;
+  --contrast-60: white;
+  --contrast-70: white;
+  --contrast-80: white;
+  --contrast-90: white;
+  --trans-10: rgba(40, 167, 69, 0.1);
+  --trans-20: rgba(40, 167, 69, 0.2);
+  --trans-30: rgba(40, 167, 69, 0.3);
+  --trans-40: rgba(40, 167, 69, 0.4);
+  --trans-50: rgba(40, 167, 69, 0.5);
+  --trans-60: rgba(40, 167, 69, 0.6);
+  --trans-70: rgba(40, 167, 69, 0.7);
+  --trans-80: rgba(40, 167, 69, 0.8);
+  --trans-90: rgba(40, 167, 69, 0.9);
+  --gray-10: #3eb058;
+  --gray-20: #53b96a;
+  --gray-30: #69c17d;
+  --gray-40: #7eca8f;
+  --gray-50: #94d3a2;
+  --gray-60: #a9dcb5;
+  --gray-70: #bfe5c7;
+  --gray-80: #d4edda;
+  --gray-90: #eaf6ec; }
+
+.bg-sea {
+  --background: #007bff;
+  --text: white;
+  --headers: #b3d7ff;
+  --links: #b3d7ff;
+  --bw-01: 255;
+  --light-inverse: #80bdff;
+  --text-light-inverse: black;
+  --dark-inverse: #80bdff;
+  --text-dark-inverse: black;
+  --contrast-10: #3395ff;
+  --contrast-20: #66b0ff;
+  --contrast-30: #99caff;
+  --contrast-40: #cce5ff;
+  --contrast-50: white;
+  --contrast-60: white;
+  --contrast-70: white;
+  --contrast-80: white;
+  --contrast-90: white;
+  --trans-10: rgba(0, 123, 255, 0.1);
+  --trans-20: rgba(0, 123, 255, 0.2);
+  --trans-30: rgba(0, 123, 255, 0.3);
+  --trans-40: rgba(0, 123, 255, 0.4);
+  --trans-50: rgba(0, 123, 255, 0.5);
+  --trans-60: rgba(0, 123, 255, 0.6);
+  --trans-70: rgba(0, 123, 255, 0.7);
+  --trans-80: rgba(0, 123, 255, 0.8);
+  --trans-90: rgba(0, 123, 255, 0.9);
+  --gray-10: #1a88ff;
+  --gray-20: #3395ff;
+  --gray-30: #4da3ff;
+  --gray-40: #66b0ff;
+  --gray-50: #80bdff;
+  --gray-60: #99caff;
+  --gray-70: #b3d7ff;
+  --gray-80: #cce5ff;
+  --gray-90: #e6f2ff; }
 
 .card.sh-card-holako {
   border-color: rgba(var(--bw-01), var(--bw-01), var(--bw-01), 0.2) !important;
@@ -7868,5 +7929,11 @@ textarea.form-control {
     color: var(--text); }
     .dropdown .dropdown-menu .dropdown-item:hover {
       background-color: var(--contrast-10); }
+
+.content {
+  padding: 50px 0; }
+
+.content-mini {
+  padding: 25px 0; }
 
 /*# sourceMappingURL=test.css.map */

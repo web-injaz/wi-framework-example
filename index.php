@@ -10,7 +10,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="bg-main">
+<body class="bg-sea">
     <?php include('main.php'); ?>
 </body>
 </html>
