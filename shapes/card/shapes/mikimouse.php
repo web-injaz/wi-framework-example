@@ -1,5 +1,5 @@
-<h6>wi-shape-card-mikimouse</h6>
-<div class="card horizontal wi-shape-card-mikimouse">
+<h6>sh-card-mikimouse</h6>
+<div class="card horizontal sh-card-mikimouse">
     <span class="badge badge-primary">New</span>
     <img src="https://placeimg.com/640/640/any" alt="portfolio image"> 
     <div class="card-body">

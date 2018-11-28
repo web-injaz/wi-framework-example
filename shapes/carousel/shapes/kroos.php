@@ -1,6 +1,6 @@
-<h6>wi-shape-carousel-kroos</h6>
+<h6>sh-carousel-kroos</h6>
 
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade wi-shape-carousel-kroos" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade sh-carousel-kroos" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

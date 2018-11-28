@@ -1,5 +1,5 @@
-<h6>wi-shape-card-kaka</h6>
-<div class="card wi-shape-card-kaka">
+<h6>sh-card-kaka</h6>
+<div class="card sh-card-kaka">
     <span class="badge badge-primary">New</span>
     <img src="https://placeimg.com/640/640/any" alt="portfolio image" class="card-img-top"> 
     <div class="card-body">

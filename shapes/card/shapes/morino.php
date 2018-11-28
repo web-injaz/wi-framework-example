@@ -1,5 +1,5 @@
-<h6>wi-shape-card-morino</h6>
-<div class="card wi-shape-card-morino">
+<h6>sh-card-morino</h6>
+<div class="card sh-card-morino">
     <div class="card-body">
         <div class="card-title">Team</div>
         <p class="card-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing esmallt.</p>

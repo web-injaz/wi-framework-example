@@ -1,6 +1,6 @@
-<h6>wi-shape-carousel-messi</h6>
+<h6>sh-carousel-messi</h6>
 
-<div id="carouselExampleIndicators" class="carousel slide wi-shape-carousel-messi" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide sh-carousel-messi" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

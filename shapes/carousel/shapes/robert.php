@@ -1,6 +1,6 @@
-<h6>wi-shape-carousel-robert</h6>
+<h6>sh-carousel-robert</h6>
 
-<div id="carouselExampleIndicators" class="carousel slide wi-shape-carousel-robert" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide sh-carousel-robert" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

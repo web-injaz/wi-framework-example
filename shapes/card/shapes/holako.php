@@ -1,5 +1,5 @@
-<h6>wi-shape-card-holako</h6>
-<div class="card wi-shape-card-holako">
+<h6>sh-card-holako</h6>
+<div class="card sh-card-holako">
     <div class="card-body">
         <h4 class="card-title">
             <span class="fa fa-google"></span>

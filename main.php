@@ -40,6 +40,9 @@
             <?php include('components/collapse/collapse.php') ?>
         </div>
         <div class="content w-100">
+            <?php include('components/panel/panel.php') ?>
+        </div>
+        <div class="content w-100">
             <?php include('components/alert/alert.php') ?>
         </div>
         <div class="content w-100">

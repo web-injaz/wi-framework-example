@@ -1,9 +1,33 @@
+// User variables
 $primary: #557;
 $secondary: #5294ef;
 
-@import 'node_modules/wi-framework/index';
+// $enable-lighten: false;
+// $enable-darken: false;
+// $enable-contrast: false;
+// $enable-trans: true;
+// $enable-gray: true;
+// $enable-inverse: true;
 
+// Web Injaz framework
+@import 'node_modules/wi-framework/index';
+@import 'node_modules/wi-framework/bootstrap/components/all';
+
+// User backgrounds
 @include create-background('main', #446);
+@include create-background('dark', #343a40);
+@include create-background('light', #ffffff);
 @include create-background('body', #f5f5f5);
 
+// User shapes or themes
 @import 'node_modules/wi-theme-famous/shapes';
+
+// Your code ...
+
+.content {
+	padding: 50px 0;
+}
+
+.content-mini {
+	padding: 25px 0;
+}

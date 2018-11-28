@@ -1,5 +1,5 @@
-<h6>wi-shape-navbar-cristiano</h6>
-<nav class="navbar navbar-expand-lg navbar-light wi-shape-navbar-cristiano">
+<h6>sh-navbar-cristiano</h6>
+<nav class="navbar navbar-expand-lg navbar-light sh-navbar-cristiano">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
