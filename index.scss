@@ -8,10 +8,17 @@ $secondary: #5294ef;
 // $enable-trans: true;
 // $enable-gray: true;
 // $enable-inverse: true;
+// $enable-default-root: false;
+
+$bgDefault: #333;
 
 // Web Injaz framework
 @import 'node_modules/wi-framework/index';
 @import 'node_modules/wi-framework/bootstrap/components/all';
+
+// @include create-root-background(#333, (
+// 	'text': red,
+// ));
 
 // User backgrounds
 @include create-background('main', #446);

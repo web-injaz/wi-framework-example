@@ -120,5 +120,11 @@
         <div class="content w-100">
             <?php include('shapes/popover/popover.php') ?>
         </div>
+        <div class="content w-100">
+            <?php include('components/datepicker/datepicker.php') ?>
+        </div>
+        <div class="content w-100">
+            <?php include('components/select2/select2.php') ?>
+        </div>
     </div>
 </div>
