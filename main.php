@@ -1,6 +1,12 @@
 <h1>Webinjaz framework:</h1>
 
 <div class="container">
+  <h1 class="text-center">Colors</h1>
+    <div class="row">
+      <div class="content w-100">
+          <?php include('components/colors/colors.php') ?>
+      </div>
+    </div>
     <h1 class="text-center">Components</h1>
     <div class="row">
         <div class="content w-100">

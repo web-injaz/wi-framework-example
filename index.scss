@@ -1,5 +1,5 @@
 // User variables
-$primary: #557;
+$primary: #446;
 $secondary: #5294ef;
 
 // $enable-lighten: true;
@@ -23,10 +23,12 @@ $bgDefault: #333;
 // User backgrounds
 @include create-background('main', #446);
 @include create-background('dark', #343a40);
+@include create-background('black', #000);
 @include create-background('light', #ffffff);
 @include create-background('body', #f5f5f5);
 @include create-background('nature', #28a745);
 @include create-background('sea', #007bff);
+@include create-background('middle', #f8af1e);
 
 // User shapes or themes
 @import 'node_modules/wi-theme-famous/shapes';
@@ -39,4 +41,70 @@ $bgDefault: #333;
 
 .content-mini {
 	padding: 25px 0;
+}
+
+.box {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+	margin: 10px;
+	&::after {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		text-transform: capitalize;
+	}
+	&.background {
+		background-color: $background;
+		&::after {
+			content: 'background';
+		}
+	}
+	&.main {
+		background-color: $main;
+		&::after {
+			content: 'main';
+		}
+	}
+	&.second {
+		background-color: $second;
+		&::after {
+			content: 'second';
+		}
+	}
+	&.headers {
+		background-color: $headers;
+		&::after {
+			content: 'headers';
+		}
+	}
+	&.links {
+		background-color: $links;
+		&::after {
+			content: 'links';
+		}
+	}
+	&.light-inverse {
+		background-color: $light-inverse;
+		color: $text-light-inverse;
+		&::after {
+			content: 'light-inverse';
+		}
+	}
+	&.dark-inverse {
+		background-color: $dark-inverse;
+		color: $text-dark-inverse;
+		&::after {
+			content: 'dark-inverse';
+		}
+	}
+	&.contrast {
+		background-color: $contrast;
+		&::after {
+			content: 'contrast';
+		}
+	}
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="font-awesome.min.css">
     <link rel="stylesheet" href="css/test.css" />
 </head>
-<body class="bg-se">
+<body class="bg-dark">
     <?php include('main.php'); ?>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
